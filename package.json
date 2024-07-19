@@ -1,0 +1,39 @@
+{
+  "name": "social-media-backend-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "esm": {
+    "cjs": true,
+    "dedefine": true
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.24.6",
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.4",
+    "nyc": "^17.0.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.6.0"
+  }
+}
